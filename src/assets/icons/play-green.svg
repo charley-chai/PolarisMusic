@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_71" data-name="Group 71" transform="translate(-935 -986)">
+    <g id="Rectangle_32" data-name="Rectangle 32" transform="translate(935 986)" fill="none" stroke="#09a97d" stroke-width="2">
+      <rect width="50" height="50" rx="25" stroke="none"/>
+      <rect x="1" y="1" width="48" height="48" rx="24" fill="none"/>
+    </g>
+    <g id="sharp-play_arrow-24px" transform="translate(945 996)">
+      <path id="Path_57" data-name="Path 57" d="M0,0H30V30H0Z" fill="none"/>
+      <path id="Path_58" data-name="Path 58" d="M8,5V25L22.924,15Z" transform="translate(1.692 0)" fill="#09a97d"/>
+    </g>
+  </g>
+</svg>

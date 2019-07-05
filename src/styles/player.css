@@ -1,0 +1,48 @@
+:root {
+  --backColor: rgb(45, 45, 45);
+}
+
+.player {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 70px 100px 80px auto 220px;
+  background: var(--backColor);
+  color: whitesmoke ;
+  position: fixed;
+  text-align: left;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+}
+
+.playing-info {
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+#play-button {
+  margin-top: 5px;
+}
+
+#shuffle-icon:hover {
+  fill: greenyellow !important;
+}
+
+.rightPart {
+  display: grid;
+  grid-template-columns: 110px auto ;
+}
+
+.middlePart {
+  display: grid;
+  grid-template-rows : 30px auto;
+}
+
+.ant-progress-inner {
+  margin-top: 5px; 
+  height: 4px !important;
+}
+
+.ant-progress-bg {
+  height: 4px !important;
+}

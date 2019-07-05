@@ -1,0 +1,48 @@
+.top-player {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.darg-area {
+  -webkit-app-region: drag;
+  height: 40px;
+}
+
+.user-info {
+  text-align: left;
+  height: 50px;
+  margin: 0px 16px 10px 16px;
+  color: white;
+}
+
+#avatar {
+  width: 50px;
+  float: left;
+}
+
+#user-name {
+  width: 110px;
+  float: right;
+}
+
+.nav-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.side-icon {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+.ant-menu-item-selected {
+  background: black !important;
+}
+
+.ant-menu-sub {
+  background: black !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}

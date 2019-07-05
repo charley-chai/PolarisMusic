@@ -1,0 +1,65 @@
+.main-view {
+  --topColor: rgb(40, 40, 40);
+  --bottomColor: rgb(20, 20, 20);
+  --textColor: white;
+  --headHeight: 160px;
+  min-width: 800px;
+}
+
+.page-name {
+  font-weight: bolder;
+  font-size: 3.5em;
+  text-align: left;
+  padding: 20px;
+  margin: 0px;
+}
+
+.head-view {
+  height: var(--headHeight);
+  background: linear-gradient(var(--topColor), var(--bottomColor));
+  color: var(--textColor);
+}
+
+.body-view {
+  background: var(--bottomColor);
+  color: var(--textColor);
+  margin-bottom: 70px;
+  min-height: 500px;
+}
+
+.iicon {
+  color: grey !important;
+  margin-left: -30px;
+  margin-top: 7px;
+  font-size: 16px;
+}
+
+.iicon :hover {
+  color: white;
+  cursor: pointer;
+}
+
+.menu-btn { 
+  opacity: 0.6;
+  margin: 0 !important;
+  padding: 0 !important; 
+  font-weight: bolder !important;
+  height: auto;
+  border: 0;
+}
+
+.menu-btn:hover { 
+  opacity: 1;
+}
+
+.menu-btn:focus { 
+  opacity: 1;
+  color: white !important;
+}
+
+.menu-active {
+  opacity: 1;
+  border-radius: 0 !important;
+  color: white !important;
+  border-bottom: solid #09A97D 2px !important;
+}
