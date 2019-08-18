@@ -6,3 +6,8 @@
 ## Overview
 
 ![](doc/image/home.png)
+
+
+## Usage
+
+`npm run electron-start`
