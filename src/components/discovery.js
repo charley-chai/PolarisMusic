@@ -36,9 +36,9 @@ class Account extends Component {
         </div>
         <div className="body-view" style={{ color: 'white', paddingLeft: 50, paddingRight: 50 }}>
           <p> Discovery </p>
-          <audio style={{ visibility: 'hidden' }}
+          <audio 
             controls="controls" >
-            <source src="https://music.163.com/song/media/outer/url?id=1371516984.mp3" type="audio/mp3" />
+            <source src="https://music.163.com/song/media/outer/url?id=33894312.mp3" type="audio/mp3" />
           </audio>
         </div>
       </div>

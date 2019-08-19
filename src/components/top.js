@@ -27,7 +27,7 @@ class Top extends Component {
     this.state = {
       which: 'home',
       login: false,
-      src: "https://music.163.com/song/media/outer/url?id=1371516984.mp3"
+      src: "https://music.163.com/song/media/outer/url?id=33894312.mp3"
     }
   }
 
