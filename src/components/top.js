@@ -11,7 +11,10 @@ import Signin from '../containers/signinPage';
 import '../styles/top.css';
 import avatar from '../assets/avatar.jpg';
 
+const { MusicClient } = require('netease-music-sdk');
+
 const { Content, Footer, Sider } = Layout;
+const client  = new MusicClient();
 
 const playlist = [
   { name: "like fly" },
@@ -48,6 +51,20 @@ class Top extends Component {
     alert(src)
     this.setState({
       src: src
+    })
+  }
+
+  componentDidMount(){
+    console.log("begin test");
+    client.phoneLogin('15256501054', 'a31415926').then(() => {
+      console.log("okoko???")
+      return client.getPersonalFM()
+    }).then(fm => {
+      console.dir(fm);
+      console.log("okoko")
+    }).catch(e => {
+      console.log("error")
+      console.log(e)
     })
   }
 
